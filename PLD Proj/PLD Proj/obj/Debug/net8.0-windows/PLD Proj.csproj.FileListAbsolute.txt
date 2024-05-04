@@ -1,0 +1,20 @@
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\PLD Proj.exe
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\PLD Proj.deps.json
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\PLD Proj.runtimeconfig.json
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\PLD Proj.dll
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\PLD Proj.pdb
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\CalithaLib.dll
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\bin\Debug\net8.0-windows\GoldParserEngine.dll
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.csproj.AssemblyReference.cache
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD_Proj.Form1.resources
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.csproj.GenerateResource.cache
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.AssemblyInfoInputs.cache
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.AssemblyInfo.cs
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.csproj.CoreCompileInputs.cache
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.csproj.Up2Date
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.dll
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\refint\PLD Proj.dll
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.pdb
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\PLD Proj.genruntimeconfig.cache
+C:\Users\khale\OneDrive\Desktop\PLD Proj\PLD Proj\obj\Debug\net8.0-windows\ref\PLD Proj.dll

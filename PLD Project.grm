@@ -1,0 +1,115 @@
+"Start Symbol" =<program>
+                
+!---------Terminal----------
+
+Id= {letter}
+Digit = {digit}
+      
+!---------Rules-------------
+
+<program> ::= Begin <stmt_list> Finish
+           
+<stmt_list> ::= <concept>
+             |<concept>'+'<stmt_list> !-----recursion------
+             
+<concept> ::= <assign>
+           |<if_stmt>
+           |<for_stmt>
+           |<switch_case>
+           |<method_decl>
+           |<method_call>
+           
+!---------assign--------
+<assign> ::= Let <id> Equal <expr> Endstmt
+          
+<id> ::= Id
+      
+<expr> ::= <expr>'+'<term>
+        |<expr>'-'<term>
+        |<term>
+        
+<term> ::= <term>'*'<factor>
+        |<term>'/'<factor>
+        |<term>'%'<factor>
+        |<factor>
+        
+<factor> ::= <factor>'**'<exp>
+          |<exp>
+          
+<exp> ::='('<expr>')'
+       |<id>
+       |<digit>
+       
+<digit> ::= Digit
+         
+!------ if statment --------
+
+<if_stmt> ::= if'('<cond>')' Then <stmt_list> EndIf
+           |if'('<cond>')' Then <stmt_list> else <stmt_list> EndIf
+           
+<cond> ::= <expr> <op> <expr>
+        
+<op> ::= '<'|'>'|'=='|'!=' |'<=' |'>='
+
+
+!------ switch_case statment ----------
+
+<switch_case> ::= Switch '('<expr>')' '{'<case_list>'}'
+               
+<case_list> ::= <case_item>
+             |<case_item> '+' <defualt_case>
+             
+<case_item> ::= Option <expr> ':' <stmt_list> break ';'
+              
+<defualt_case> ::= defualt ':' <stmt_list>
+
+!----- for statment--------
+
+<for_stmt> ::= For '('<data> <assign> ';' <cond> ';' <step>')' '{' <stmt_list>'}'
+            
+<data> ::= Number
+        |Decimal
+        |Text
+        
+<step> ::= <id>'++'
+        | <id>'--'
+        | '++'<id>
+        | '--'<id>
+        | <assign>
+        
+!--------- method declartion--------
+
+<method_decl> ::= Define <returnType> <id> '('<params>')' '{'<stmt_list>'}'
+               
+<returnType> ::=Number
+              |Decimal
+              |Text
+              |void
+              
+<params> ::= <param>
+          |<param> ',' <params> !-----recursion-----
+          
+<param> ::= <data> <id>
+         
+ !-------- method call-----------
+
+ <method_call> ::= <id> '(' <expr> ')'EndStmt
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
